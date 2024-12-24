@@ -1,0 +1,90 @@
+#about {
+  height: calc(100vh - 5rem);
+  margin-top: 40px;
+  z-index: 1;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(24, 24, 36, 0.7);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+#introContent {
+  width: 100%;
+  max-width: 1000px;
+  padding: 2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fefefe;
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#introContent h4 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #4e73df;
+}
+
+#introContent p {
+  line-height: 1.8;
+  color: #ffffff;
+  margin: 0;
+  font-size: 1.2rem;
+  max-width: 900px;
+}
+
+@media (max-width: 1024px) {
+  #about {
+    padding: 2rem;
+  }
+
+  #introContent {
+    padding: 1.5rem;
+  }
+
+  #introContent h4 {
+    font-size: 2.2rem;
+  }
+
+  #introContent p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #about {
+    padding: 1.5rem;
+  }
+
+  #introContent {
+    padding: 1rem;
+    box-shadow: none;
+  }
+
+  #introContent h4 {
+    font-size: 2rem;
+  }
+
+  #introContent p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #introContent h4 {
+    font-size: 1.8rem;
+  }
+
+  #introContent p {
+    font-size: 0.9rem;
+  }
+}
